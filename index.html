@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="referrer" content="origin">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- To look good on all devices  -->
+    <title> My Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <!--import google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Raleway:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <!--To use Font Awesome 5-->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <!-- For drop down activation in navbar -->
+    <script src="index.js" defer></script>
+    <!-- For sticky navbar -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- using icons -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="heading"><a href="#">Portfolio</a></div>
+        <a class="toggle">
+            <span class="bars"></span>
+            <span class="bars"></span>
+            <span class="bars"></span>
+        </a>
+        <div class="topbar">
+            <ul class="links">
+                <li><a href="#homePage">Intro</a></li>
+                <li><a href="#aboutPage">Employers</a></li>
+                <li><a href="https://simar710.github.io/Work-term-report-1/">Camis Inc.</a></li>
+                <li><a href="file:///Users/simardeepsingh/intellijoint%20report/index.html">Intellijoint Surgical</a>
+                </li>
+                <li><a href="#contactPage">Conclusions</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Animated background -->
+    <div class="backgroundImage">
+        <ul class="childList">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <!-- Code for home page -->
+    <section class="homePage" id="homePage">
+        <div class="main">
+            <div class="homeData">
+                <div class="intro1">Hello, my name is</div>
+                <div class="intro2">Simardeep Singh</div>
+                <div class="intro3">And I'm a <span>Software Developer</span></div>
+                <br>
+                <div class="additional">
+                    <p>I am a motivated and detail-oriented individual with a passion for programming and software
+                        engineering. I have three years of experience in software development and software testing with
+                        a strong focus on problem-solving and debugging. During my co-op terms I have developed a strong
+                        understanding of software development life cycles and agile methodologies. I am well-versed in
+                        C++, Java, Python, SQL and am familiar with various software libraries and frameworks.
+                        Additionally, I have experience with debugging, unit testing and production-level code. I am a
+                        team player and believe in collaboration to achieve a common goal. I am excited to join a
+                        dynamic team and continue to grow my software engineering knowledge.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <!-- Code for About Section -->
+    <div id="aboutPage"></div>
+    <section class="aboutPage">
+        <h2 class="aboutMe">My Employers</h2>
+        <div class="aboutData">
+            <div id="camis" class=cmpny>
+                <div class="column">
+                    <div class="subText"><span>Camis Inc.</span> </div>
+                    <p> <strong>Software Developer Co-op</strong> (30 May 2022 – 2 September 2022)</p>
+                    <ul>
+                        <li>Software maintenance - reproducing, isolating, and fixing issues with any Camis software.
+                        </li>
+                        <li>Maintaining unit tests, responding to tickets & bug reports, product design review.</li>
+                        <li>Agile methodology, Implementing new features, improvements and fixes to Camis application.
+                        </li>
+                        <li>Utilizing JIRA, Tableau, SQL Server (Backend), Python, JavaScript, Confluence, TestCafe,
+                            Slack</li>
+                    </ul>
+                    <form action="https://simar710.github.io/Work-term-report-1/" method="get" target="_blank">
+                        <button class="workterm" type="submit">Work Term 1</button>
+                    </form>
+                </div>
+                <div class="companyImg">
+                    <img src="Camis.JPG" alt="Camis Inc.">
+                </div>
+            </div>
+            <div id="intellijoint" class=cmpny>
+                <div class="column">
+                    <div class="subText"><span>Intellijoint Surgical</span></div>
+                    <p> <strong>Software Test Co-op</strong> (6 September 2022 – 23 December 2022)</p>
+                    <ul>
+                        <li>Contribute to multiple phases of the product development process, with an emphasis on
+                            software testing.</li>
+                        <li>Design, develop, execute, and maintain manual and automated test activities utilizing
+                            various testing methodologies and practices in an agile environment.</li>
+                        <li>Support product development and technical investigations</li>
+                        <li>Work closely and collaborate with product development and software development team members
+                            to plan and execute testing activities.</li>
+                        <li>Complete documentation according to best practices, and as required by Intellijoint design
+                            control process.</li>
+                        <li>Participate in risk management, requirements definition, bug triage, backlog refinement and
+                            sprint planning processes to ensure features and defects are effectively tested.</li>
+
+                    </ul>
+                    <form action="file:///Users/simardeepsingh/intellijoint%20report/index.html" method="get"
+                        target="_blank">
+                        <button class="workterm" type="submit">Work Term 2</button>
+                    </form>
+                </div>
+                <div class="companyImg">
+                    <img src="Intellijoint.jpg" alt="Intellijoint Surgical">
+                </div>
+            </div>
+
+            <br>
+        </div>
+    </section>
+    <br>
+
+    <div id="contactPage"></div>
+    <!-- Code for Contact Section -->
+    <section class="contactPage">
+        <h2 class="contactMe">Conclusion</h2>
+        <div class="subText"><span>Camis Inc.</span> </div>
+        <p class="newclass">It was a wonderfull experience to work at Camis Inc. There's a lot that I gained while
+            working. First of all, I never knew that there's so much going on behind reserving a campsite. Before
+            joining, I went through the job descriptiton, I found that there were a lot of opportunities to learn about
+            testing and product review at Camis. I designed my goals keeping in my mind not only technical aspects of
+            the job, but also business and interpersonal skills. My main tasks was to perform tests on different
+            features. Due to different learning sessions and meeting, I was able to achieve my each and every goal.
+            Apart from the technical skills, I get to know how to interact with clients and team members at a
+            professional level. The experience that I gained at Camis will help me in honing my skills to the next
+            level, which will eventually help me to fulfill my future goals.</p>
+        <br>
+        <div class="subText"><span>Intellijoint surgical</span> </div>
+        <p class="newclass">My experience working as a Software Test Co-op at Intellijoint Surgical was one of the most
+            rewarding experiences I have had in my career. I was able to learn a lot about software testing and develop
+            a wide range of skills in the process. At Intellijoint Surgical, I was responsible for performing various
+            types of software tests on the company's products. These tests ranged from unit tests to integration tests
+            and system tests. I was also responsible for writing test plans and test cases, as well as executing them. I
+            was also involved in the development and maintenance of automated test scripts. This was done in order to
+            ensure that the software was functioning properly and that the tests were being performed accurately. I was
+            also responsible for creating and maintaining test databases, as well as reporting any issues that were
+            encountered during the testing process. Overall, my experience at Intellijoint Surgical was extremely
+            valuable. I was able to gain a great deal of knowledge and experience that I can use in future positions. I
+            am grateful for the opportunity to work with such a great team and to be a part of a successful
+            organization.</p>
+        <br>
+        <h1 class="contactMee">Contact me</h1>
+        <br>
+        <div class="contactInfo">
+            <div class="left Side">
+                <div class="sentence">Get in Touch</div>
+                <p>You can contact me direclty from the website using the given method</p>
+                <div class="img">
+                    <div class="line">
+                        <i class="fas fa-user"></i>
+                        <div class="info">
+                            <div class="upper">Name</div>
+                            <div class="sub-title">Simardeep Singh</div>
+                        </div>
+                    </div>
+
+                    <div class="line">
+                        <i class="fas fa-envelope"></i>
+                        <div class="info">
+                            <div class="upper">Email</div>
+                            <div class="sub-title">ssingh75@uoguelph.ca</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="scroll-up-btn show">
+        <a href="#homePage"><i class="fas fa-arrow-up"></i></a>
+    </div>
+    <footer>
+        <p>Created By Simardeep Singh | <span class="far fa-copyright"></span> 2022 All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
